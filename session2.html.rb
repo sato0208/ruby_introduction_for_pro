@@ -1,4 +1,4 @@
-greetint =
+greeting =
   if country = 'japan'
    'こんにちは'
   elsif country == 'us'
@@ -8,3 +8,10 @@ greetint =
   else
    '???'
   end
+
+# メソッドの定義
+def add(a, b)
+  a + b
+end
+
+# puts add(1,2)
